@@ -1,23 +1,27 @@
 """
 Problème : Quel est le plus grand facteur premier du nombre 20130101 ?
-Idée : A l'aide d'une boucle de 2 à 'limit div 2' on vérifie que le nombre est premier puis on vérifie autant de fois qu'il peut diviser 'limit' en répétant avec le quotient jusqu'a obtenir 1.
-Complexité :
-Durée environ : 
+Durée environ : 0.070401 s
+Résultat : 1059479
 """
 
 import math
+from modules.timer import mesure_temps
 
-from modules import timer
+# Idée : 
+# A l'aide d'une boucle de 2 à 'limit div 2' on vérifie 
+# que le nombre est premier puis on vérifie autant de fois qu'il peut diviser 'limit' 
+# en répétant avec le quotient jusqu'a obtenir 1.
 
 def est_premier(n):
     """Vérifie si un nombre est premier ou pas"""
     if n == 0:
         return False
-    for i in range(2, int(math.sqrt(n))):
+    for i in range(2, int(math.sqrt(n)) + 1):
         if n % i == 0:
             return False
     return True
 
+@mesure_temps
 def grand_facteur_premier(limit):
     """Trouve le plus grand facteur premier de la limite"""
     gfp = 1
@@ -35,5 +39,6 @@ def grand_facteur_premier(limit):
 
     return gfp
 
-timer.test_rapide(grand_facteur_premier, 20130101)
+if __name__ == "__main__":
+    print(grand_facteur_premier(20130101))
 
