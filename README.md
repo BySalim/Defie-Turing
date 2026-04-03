@@ -10,6 +10,7 @@ L’objectif est de résoudre progressivement ces exercices en **Python**, en me
 
 ### Modules
 - timer est un décorateur qui permet de calculer le temps efectuer par une fonction.
+- utils est l'ensemble des fonctions utilitaire utilisable dans les problèmes.
   
 ### Problèmes
 Chaque fichier correspond à la solution d’un problème :
@@ -21,6 +22,7 @@ Chaque fichier correspond à la solution d’un problème :
 | [`problem3.py`](./problem3.py) |✅|
 | [`problem4.py`](./problem4.py) |✅|
 | [`problem5.py`](./problem5.py) |✅|
+| [`problem6.py`](./problem6.py) |✅|
 
 
 ## Contact

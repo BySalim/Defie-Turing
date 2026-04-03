@@ -6,24 +6,15 @@ Durée environ : 0.0005
 """
 
 from modules.timer import mesure_temps
+from modules.utils import somme_chiffres, puissance
 
 # Idée :
-# On calculerait le résultat et on aditionnerait chaque chiffre
-
-def addition_chiffres(n):
-    """Calcul et retourne la somme des chiffres d'un nombre"""
-    s = 0
-    while n // 10 != 0:
-        chiffre = n % 10
-        s += chiffre
-        n //= 10 
-    return s + n
+# On calculerait le résultat et on additionnerait chaque chiffre
 
 @mesure_temps
 def somme_chiffres_puissance(n, p):
-    """Calcul n^p et retourne la somme des chiffres du résultat"""
-    res = n ** p
-    return addition_chiffres(res)
+    """Calcul la puissance n^p et retourne la somme des chiffres du résultat"""
+    return somme_chiffres(puissance(n, p))
 
 if __name__ == "__main__":
     print(somme_chiffres_puissance(2, 2222))
