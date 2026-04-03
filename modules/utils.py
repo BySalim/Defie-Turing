@@ -19,3 +19,12 @@ def factorielle(n):
     for i in range(n, 1, -1):
         fact *= i
     return fact
+
+def est_premier(n):
+    """Vérifie si un nombre est premier ou pas"""
+    if n == 0 or n == 1:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True

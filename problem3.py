@@ -3,22 +3,14 @@ Problème : Quel est le plus grand facteur premier du nombre 20130101 ?
 Durée environ : 0.070401 s
 """
 
-import math
 from modules.timer import mesure_temps
+from modules.utils import est_premier
 
 # Idée : 
 # A l'aide d'une boucle de 2 à 'limit div 2' on vérifie 
 # que le nombre est premier puis on vérifie autant de fois qu'il peut diviser 'limit' 
 # en répétant avec le quotient jusqu'a obtenir 1.
 
-def est_premier(n):
-    """Vérifie si un nombre est premier ou pas"""
-    if n == 0:
-        return False
-    for i in range(2, int(math.sqrt(n)) + 1):
-        if n % i == 0:
-            return False
-    return True
 
 @mesure_temps
 def grand_facteur_premier(limit):
