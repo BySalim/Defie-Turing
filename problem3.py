@@ -1,7 +1,6 @@
 """
 Problème : Quel est le plus grand facteur premier du nombre 20130101 ?
 Durée environ : 0.070401 s
-Résultat : 1059479
 """
 
 import math

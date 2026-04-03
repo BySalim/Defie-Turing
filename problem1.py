@@ -1,7 +1,6 @@
 """
 Problème 1 : Somme de tous les multiples de 5 ou de 7 inférieurs à 2013.
 Durée environ : 0.000011 s
-Résultat : 636456
 """
 
 from modules.timer import mesure_temps

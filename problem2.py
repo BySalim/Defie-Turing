@@ -1,7 +1,6 @@
 """
 Problème 2 : En prenant en compte les termes de la suite de Fibonacci dont les valeurs ne dépassent pas 4 millions, trouver la somme des termes impairs.
 Durée environ : 0.000007 s
-Résultat : 4613732
 """
 
 from modules.timer import mesure_temps
