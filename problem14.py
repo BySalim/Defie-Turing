@@ -14,11 +14,13 @@ from modules.timer import mesure_temps
 
 # Idée :
 # on initialise la taille maximale et le nombre qui contient la plus grande suite
-# On cherche toutes les suites de syracuse en partant de 1 et en s'arrétant à 1'500'000
+# On cherche toutes les tailles des suites de syracuse en partant de 1 et en s'arrétant à 1'500'000
 # on calcule la taille de la suite actuel et on vérifie si elle est 'strictement' plus grande que les anciennes
 # si oui on stocke son nombre et on met à jour la nouvelle taille maximale
 # le choix du parcours (1 à 1'500'000) et la condition de mise à jour du maximum (>)
 # nous permet d'avoir à la fin le plus petit nombre qui a la plus grande suite de syracuse
+# avec le cache on enregistre les tailles de chaque nombre déjà visité
+# la recurence sur la longueur permet de cacluler en profondeur chaque taille de chaque élément dans la liste et de stocker dans le cache
 
 def longueur_syracuse(nombre_depart, cache = {1:1}):
     """Renvoie la taille de la suite (liste) de Syracuse à partir du [nombre_depart] optimiser avec la mémoire (cache)"""
