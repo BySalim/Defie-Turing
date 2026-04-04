@@ -24,6 +24,7 @@ Chaque fichier correspond à la solution d’un problème :
 | [`problem5.py`](./problem5.py) |✅|
 | [`problem6.py`](./problem6.py) |✅|
 | [`problem7.py`](./problem7.py) |✅|
+| [`problem8.py`](./problem8.py) |✅|
 
 
 ## Contact
