@@ -7,7 +7,7 @@ Problème :
     Par exemple, à partir de 14, on construit la suite des nombres : 14, 7, 22, 11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1.
     C'est ce qu'on appelle la suite de Syracuse du nombre 14. Elle a ici une longueur de 18.
     Pour quel nombre de départ inférieur à 1'500'000 obtient-on la plus longue suite de Syracuse? Il y a deux solutions, donner la plus petite.
-Durée environ : 
+Durée environ : 16.3158
 """
 
 from modules.timer import mesure_temps
