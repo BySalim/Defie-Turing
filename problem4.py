@@ -6,6 +6,7 @@ Durée environ : 0.0514
 """
 
 from modules.timer import mesure_temps
+from modules.utils import est_palindrome
 
 # Idée :
 # On commencerait par trouver le plus petit et le plus grand nombre de 3 chiffres ainsi que de 4 chiffres.
@@ -20,10 +21,6 @@ from modules.timer import mesure_temps
 # si c'est le cas on vérit que le quotient appartient aux nombres de 4 chiffres.
 # Cette facon de faire nous garantit qu'on aurra le plus grand produit.
 
-def est_palindrome(n):
-    """Vérifie qu'un nombre est un palindrome"""
-    s = str(n)
-    return s == s[::-1]
 
 def nombres_limite(t):
     """

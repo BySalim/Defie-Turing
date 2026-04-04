@@ -28,3 +28,8 @@ def est_premier(n):
         if n % i == 0:
             return False
     return True
+
+def est_palindrome(n):
+    """Vérifie qu'un nombre est un palindrome"""
+    s = str(n)
+    return s == s[::-1]
