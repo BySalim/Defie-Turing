@@ -20,6 +20,26 @@ def factorielle(n):
         fact *= i
     return fact
 
+def facto_cache(nombre, cache):
+    """Retourne la factorielle d'un nombre optimiser via le cache et la (Récursivité)"""
+    if nombre in cache:
+        return cache[nombre]
+        
+    if nombre == 0 or nombre == 1:
+        # Cas de précaution : cas où le cache ne contiendrait pas les factorielles de 0 ou 1
+        return 1
+    
+    if (nombre - 1) in cache: # Si son prédécesseur est dans la mémoire
+        cache[nombre] = nombre * cache[nombre - 1]
+    else: 
+        # Dans le cas contraire on utilise la récursivité pour calculer son prédecesseur
+        # De ce fait on pourra enregistrer chaque prédécesseur (seulement ceux qui nous sont utiles) qui ne sont pas dans la mémoire
+        cache[nombre] = facto_cache(nombre - 1, cache)
+    
+    # On retourne au final la factorielle du nombre calculer
+    return cache[nombre]
+    
+
 def est_premier(n):
     """Vérifie si un nombre est premier ou pas"""
     if n == 0 or n == 1:
@@ -35,4 +55,12 @@ def est_palindrome(n):
     return s == s[::-1]
 
 def nb_chiffres(nombre):
+    """Retourne le nombre de chiffre d'un nombre"""
     return len(str(nombre))
+
+def produit(iterable):
+    """Retourne le produit des éléments d'une liste/tuple/dict/set... en utilisant le cacul basique"""
+    p = 1
+    for e in iterable:
+        p *= e
+    return p
