@@ -9,7 +9,7 @@ Problème 48 :
     1^1 + 2^2 + 3^3 + ... + 10^10 = 10 405 071 317
     Donner les 10 premiers chiffres de la série 1^1 + 2^2 + 3^3 + ... + 2013^2013.
 Version : V1.1
-Durée environ : ... s
+Durée environ : 0.0419149 s
 """
 
 from modules.timer import mesure_temps
