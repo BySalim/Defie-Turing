@@ -12,6 +12,9 @@ L’objectif est de résoudre progressivement ces exercices en **Python**, en me
 - timer est un décorateur qui permet de calculer le temps efectuer par une fonction.
 - utils est l'ensemble des fonctions utilitaire utilisable dans les problèmes.
   
+### Utilitaires
+- new_problem est un script qui permet de créer un nouveau fichier `problemX.py` avec le bon format de départ. Utilisation : `python new_problem.py <numéro>`
+
 ### Problèmes
 Chaque fichier correspond à la solution d’un problème :
 
