@@ -20,25 +20,25 @@ Chaque fichier correspond à la solution d’un problème :
 
 | Fichier | Résolu |
 |---|---|
-| [`problem1.py`](./problem1.py) |✅|
-| [`problem2.py`](./problem2.py) |✅|
-| [`problem3.py`](./problem3.py) |✅|
-| [`problem4.py`](./problem4.py) |✅|
-| [`problem5.py`](./problem5.py) |✅|
-| [`problem6.py`](./problem6.py) |✅|
-| [`problem7.py`](./problem7.py) |✅|
-| [`problem8.py`](./problem8.py) |✅|
-| [`problem9.py`](./problem9.py) |✅|
-| [`problem10.py`](./problem10.py) |✅|
-| [`problem11.py`](./problem11.py) |✅|
-| [`problem13.py`](./problem13.py) |✅|
-| [`problem14.py`](./problem14.py) |✅|
-| [`problem19.py`](./problem19.py) |✅|
-| [`problem25.py`](./problem25.py) |✅|
-| [`problem34.py`](./problem34.py) |✅|
-| [`problem48.py`](./problem48.py) |✅|
-| [`problem67.py`](./problem67.py) |✅|
-| [`problem70.py`](./problem70.py) |✅|
+| [`problem1.py`](/problems/problem1.py) |✅|
+| [`problem2.py`](/problems/problem2.py) |✅|
+| [`problem3.py`](/problems/problem3.py) |✅|
+| [`problem4.py`](/problems/problem4.py) |✅|
+| [`problem5.py`](/problems/problem5.py) |✅|
+| [`problem6.py`](/problems/problem6.py) |✅|
+| [`problem7.py`](/problems/problem7.py) |✅|
+| [`problem8.py`](/problems/problem8.py) |✅|
+| [`problem9.py`](/problems/problem9.py) |✅|
+| [`problem10.py`](/problems/problem10.py) |✅|
+| [`problem11.py`](/problems/problem11.py) |✅|
+| [`problem13.py`](/problems/problem13.py) |✅|
+| [`problem14.py`](/problems/problem14.py) |✅|
+| [`problem19.py`](/problems/problem19.py) |✅|
+| [`problem25.py`](/problems/problem25.py) |✅|
+| [`problem34.py`](/problems/problem34.py) |✅|
+| [`problem48.py`](/problems/problem48.py) |✅|
+| [`problem67.py`](/problems/problem67.py) |✅|
+| [`problem70.py`](/problems/problem70.py) |✅|
 
 
 ## Contact

@@ -11,7 +11,7 @@ def get_python_version():
     return f"{v.major}.{v.minor}.{v.micro}"
 
 def create_problem(numero: int):
-    filename = f"problem{numero}.py"
+    filename = f"problems/problem{numero}.py"
 
     try:
         open(filename, "x").close()
