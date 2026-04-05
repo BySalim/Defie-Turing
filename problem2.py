@@ -1,5 +1,12 @@
+# -*- coding: utf-8 -*-
 """
+Auteur : @bysalim
+Création : 2025-11-22
+Python : 3.14.3
+Encodage : UTF-8
+
 Problème 2 : En prenant en compte les termes de la suite de Fibonacci dont les valeurs ne dépassent pas 4 millions, trouver la somme des termes impairs.
+Version : V2.3
 Durée environ : 0.000007 s
 """
 

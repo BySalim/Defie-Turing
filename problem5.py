@@ -1,8 +1,15 @@
+# -*- coding: utf-8 -*-
 """
-Problème : 
+Auteur : @bysalim
+Création : 2026-04-03
+Python : 3.14.3
+Encodage : UTF-8
+
+Problème 5 :
     2^15 = 32768 et la somme de ses chiffres vaut 3 + 2 + 7 + 6 + 8 = 26.
     Que vaut la somme des chiffres composant le nombre 2^2222?
-Durée environ : 0.0005
+Version : V1.2
+Durée environ : 0.0005 s
 """
 
 from modules.timer import mesure_temps

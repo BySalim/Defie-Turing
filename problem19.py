@@ -1,5 +1,11 @@
+# -*- coding: utf-8 -*-
 """
-Problème : 
+Auteur : @bysalim
+Création : 2026-04-05
+Python : 3.14.3
+Encodage : UTF-8
+
+Problème 19 :
     Des petits hommes verts rencontrent des petits hommes bleus.
     A leur grand étonnement, ils constatent que leurs mains ne comportent pas le même nombre de doigts : 
     7 pour les bleus et 8 pour les verts.
@@ -9,7 +15,8 @@ Problème :
     et sur celui des mains vertes (le 2 et le 14 par exemple).
     Ces nombres ont été qualifiés d'"annulaires" par les savants.
     Calculer la somme des nombres annulaires compris entre 1 et 2013.
-Durée environ : 0.0001
+Version : V1.1
+Durée environ : 0.0001 s
 """
 
 from modules.timer import mesure_temps

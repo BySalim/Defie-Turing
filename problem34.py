@@ -1,11 +1,18 @@
+# -*- coding: utf-8 -*-
 """
-Problème : 
+Auteur : @bysalim
+Création : 2026-04-05
+Python : 3.14.3
+Encodage : UTF-8
+
+Problème 34 :
     145 est un nombre curieux. En effet, 1! + 4! + 5! = 1 + 24 + 120 = 145.
     Trouver le produit de tous les nombres qui sont égaux à la somme de la factorielle de leurs chiffres.
     Remarques:
     1! = 1 et 2! = 2 ne sont pas des sommes et ne seront pas incluses dans le produit.
     Rappelons que 0! = 1
-Durée environ : 17.9669423
+Version : V1.1
+Durée environ : 17.9669423 s
 """
 
 from modules.timer import mesure_temps

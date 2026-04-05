@@ -1,11 +1,18 @@
+# -*- coding: utf-8 -*-
 """
-Problème : 
+Auteur : @bysalim
+Création : 2026-04-05
+Python : 3.14.3
+Encodage : UTF-8
+
+Problème 25 :
     La suite de Fibonacci est définie par la relation de récurrence :
     F(n) = F(n-1) + F(n-2) , avec F(1)=1 et F(2)=1.
     Ainsi, les 12 premiers termes sont les suivants : 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...
     Le terme de rang 12, F(12), est le premier terme qui comprend 3 chiffres.
     Quel est le rang du premier terme de la suite de Fibonacci qui comprend 2013 chiffres ?
-Durée environ : 0.2207885
+Version : V1.1
+Durée environ : 0.2207885 s
 """
 
 from modules.timer import mesure_temps

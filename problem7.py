@@ -1,8 +1,15 @@
+# -*- coding: utf-8 -*-
 """
-Problème : 
+Auteur : @bysalim
+Création : 2026-04-03
+Python : 3.14.3
+Encodage : UTF-8
+
+Problème 7 :
     En énumérant les six premiers nombres premiers : 2, 3, 5, 7, 11 et 13, on voit que le 6ème nombre premier est 13.
     Quel est le 23456ème nombre premier ?
-Durée environ : 0.5655
+Version : V1.1
+Durée environ : 0.5655 s
 """
 
 from modules.timer import mesure_temps

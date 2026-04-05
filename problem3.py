@@ -1,5 +1,12 @@
+# -*- coding: utf-8 -*-
 """
-Problème : Quel est le plus grand facteur premier du nombre 20130101 ?
+Auteur : @bysalim
+Création : 2025-11-22
+Python : 3.14.3
+Encodage : UTF-8
+
+Problème 3 : Quel est le plus grand facteur premier du nombre 20130101 ?
+Version : V2.4
 Durée environ : 0.070401 s
 """
 

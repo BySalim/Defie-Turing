@@ -1,8 +1,15 @@
+# -*- coding: utf-8 -*-
 """
-Problème : 
-    Quel est le plus grand palindrome que l'on peut obtenir 
+Auteur : @bysalim
+Création : 2026-04-03
+Python : 3.14.3
+Encodage : UTF-8
+
+Problème 4 :
+    Quel est le plus grand palindrome que l'on peut obtenir
     en multipliant un nombre de 4 chiffres avec un nombre de 3 chiffres ?
-Durée environ : 0.0514
+Version     : V2.2
+Durée environ : 0.0514 s
 """
 
 from modules.timer import mesure_temps

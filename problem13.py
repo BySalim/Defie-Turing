@@ -1,8 +1,15 @@
+# -*- coding: utf-8 -*-
 """
-Problème : 
+Auteur : @bysalim
+Création : 2026-04-04
+Python : 3.14.3
+Encodage : UTF-8
+
+Problème 13 :
     Le plus petit carré palindrome ayant un nombre pair de chiffres est 698896 = 836^2.
     Quel est le carré palindrome suivant ?
-Durée environ : 0.2929
+Version : V1.2
+Durée environ : 0.2929 s
 """
 
 from modules.timer import mesure_temps

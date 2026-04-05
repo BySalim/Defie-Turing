@@ -1,5 +1,12 @@
+# -*- coding: utf-8 -*-
 """
+Auteur : @bysalim
+Création : 2025-11-21
+Python : 3.14.3
+Encodage : UTF-8
+
 Problème 1 : Somme de tous les multiples de 5 ou de 7 inférieurs à 2013.
+Version : V2.9
 Durée environ : 0.000011 s
 """
 

@@ -1,8 +1,15 @@
+# -*- coding: utf-8 -*-
 """
-Problème : 
+Auteur : @bysalim
+Création : 2026-04-04
+Python : 3.14.3
+Encodage : UTF-8
+
+Problème 10 :
     La somme des nombres premiers entre 1 et 10 vaut 2 + 3 + 5 + 7 = 17.
     Trouver la somme des nombres premiers compris entre 1 et 10'000'000.
-Durée environ : 0.4138
+Version : V2.2
+Durée environ : 0.4138 s
 """
 
 from modules.timer import mesure_temps

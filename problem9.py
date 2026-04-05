@@ -1,9 +1,16 @@
+# -*- coding: utf-8 -*-
 """
-Problème : 
+Auteur : @bysalim
+Création : 2026-04-04
+Python : 3.14.3
+Encodage : UTF-8
+
+Problème 9 :
     Le triplet d'entiers naturels non nuls (a,b,c) est pythagoricien si a^2 + b^2 = c^2.
     Par exemple, (3,4,5) est un triplet pythagoricien.
     Parmi les triplets pythagoriciens (a,b,c) tels que a + b + c = 3600, donner le produit a x b x c le plus grand.
-Durée environ : 1.1618
+Version : V1.1
+Durée environ : 1.1618 s
 """
 
 from modules.timer import mesure_temps

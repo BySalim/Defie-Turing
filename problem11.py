@@ -1,8 +1,15 @@
+# -*- coding: utf-8 -*-
 """
-Problème : 
+Auteur : @bysalim
+Création : 2026-04-04
+Python : 3.14.3
+Encodage : UTF-8
+
+Problème 11 :
     On appellera "miroir d'un nombre n" le nombre n écrit de droite à gauche. Par exemple, miroir(7423) = 3247.
     Quel est le plus grand nombre inférieur à 10 millions ayant la propriété : miroir(n) = 4 x n ?
-Durée environ : 2.5051
+Version : V1.3
+Durée environ : 2.5051 s
 """
 
 from modules.timer import mesure_temps
