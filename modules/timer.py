@@ -6,6 +6,6 @@ def mesure_temps(func):
         resultat = func(*args, **kwargs)
         fin = time.time()
         duree = fin - debut
-        print(f"⏱️  '{func.__name__}' exécutée en {duree:.4f} secondes")
+        print(f"⏱️  '{func.__name__}' exécutée en {duree:.7f} secondes")
         return resultat
     return wrapper

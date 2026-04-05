@@ -33,3 +33,6 @@ def est_palindrome(n):
     """Vérifie qu'un nombre est un palindrome"""
     s = str(n)
     return s == s[::-1]
+
+def nb_chiffres(nombre):
+    return len(str(nombre))

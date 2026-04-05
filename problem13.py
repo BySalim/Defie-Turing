@@ -6,15 +6,12 @@ Durée environ : 0.2929
 """
 
 from modules.timer import mesure_temps
-from modules.utils import est_palindrome
+from modules.utils import est_palindrome, nb_chiffres
 
 # Idée :
 # On prend comme départ la racine carré du carre palindrome c'est dire 836
 # Tant qu'on a pas trouvé on augmente cette valeur de 1
 # On vérifie que son carré est un palindrome et que son nombre de chiffre est paire
-
-def nb_chiffres(nombre):
-    return len(str(nombre))
 
 @mesure_temps
 def carre_palindrome_suivant(carre_palin_actuel):
