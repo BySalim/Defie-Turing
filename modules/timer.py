@@ -1,6 +1,7 @@
 import time
 
 def mesure_temps(func):
+    """Exécute et affiche le temps qu'une function a efectué depuis son lancement"""
     def wrapper(*args, **kwargs):
         debut = time.time()
         resultat = func(*args, **kwargs)
