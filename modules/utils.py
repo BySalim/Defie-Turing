@@ -1,8 +1,6 @@
 """Ensemble des fonctions utilitaires utilisable dans n'importe quel problem"""
 
-def puissance(n, p):
-    """Calcul et retourne n^p"""
-    return n ** p
+import math
 
 def somme_chiffres(n):
     """Calcul et retourne la somme des chiffres d'un nombre"""
@@ -56,11 +54,8 @@ def est_palindrome(n):
 
 def nb_chiffres(nombre):
     """Retourne le nombre de chiffre d'un nombre"""
-    return len(str(nombre))
+    return int(math.log10(nombre)) + 1
 
 def produit(iterable):
     """Retourne le produit des éléments d'une liste/tuple/dict/set... en utilisant le cacul basique"""
-    p = 1
-    for e in iterable:
-        p *= e
-    return p
+    return math.prod(iterable)
