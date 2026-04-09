@@ -11,7 +11,7 @@ Problème 77 :
     8833 = 88^2 + 33^2
     Quel est le plus grand nombre de 8 chiffres de ce type : abcdefgh = abcd^2 + efgh^2 ?
 Version : V1.1
-Durée environ : ... s
+Durée environ : 1.8951192 s
 """
 
 from modules.timer import mesure_temps
