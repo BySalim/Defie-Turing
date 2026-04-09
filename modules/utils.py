@@ -59,3 +59,7 @@ def nb_chiffres(nombre):
 def produit(iterable):
     """Retourne le produit des éléments d'une liste/tuple/dict/set... en utilisant le cacul basique"""
     return math.prod(iterable)
+
+def mini_maxi_par_chiffre(nb_chiffres):
+    """Retourne le plus petit entier et le plus grand entier qui ont [nb_chiffres] chiffres"""
+    return 10**(nb_chiffres - 1), 10**nb_chiffres - 1
