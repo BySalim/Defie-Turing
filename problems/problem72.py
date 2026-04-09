@@ -8,25 +8,18 @@ Encodage : UTF-8
 Problème 72 :
     Parmi tous les entiers inférieurs à 1 milliard, combien sont des carrés se terminant par exactement 3 chiffres identiques ?
     Par exemple, 213444 = 462^2
-Version : V1.1
+Version : V1.2
 Durée environ : 0.0145254 s
 """
 
 from modules.timer import mesure_temps
+from modules.utils import est_identique
 
 # Idée :
 # On parcourt les nombres entre 10 et < sqrt(1 millards). Pourquoi 10 car c'est à partir de 10 que le carré d'un nombre donne au minimum 3 chiffres
 # Pour chaque nombre on récupère les trois derniers chiffres il suffit d'utiliser la formule suivante
 # nombre = nombre % 10 ^ 3
 # Pour une solution général on va prendre n pour le nombre de derniers chiffres identique et limite pour le nombre maximal à ne pas atteindre
-
-def elements_identique(iterable):
-    """Vérifie si tous les éléments de l'itérables sont les mêmes"""
-    for i in range(len(iterable)-1):
-        if iterable[i] != iterable[i+1]: # Si l'élément actuel est différent de l'élément suivant
-            return False
-    # Si tous les éléments sont identiques
-    return True
         
 
 @mesure_temps
@@ -41,7 +34,7 @@ def count_carre_n_chiffres_identique(n, limit):
         
         n_last_chiffres = str(carre % (10 ** n)) # Les n derniers chiffres de chaque nombre en chaine
         if len(n_last_chiffres) == n : # Si les chiffres valent le nombre requit car il se peut qu'on ait (001) qui a été convertie en 1 les chiffres 0 sont exclues du compte
-            if elements_identique(n_last_chiffres): # Si tous les chiffres sont identiques
+            if est_identique(n_last_chiffres): # Si tous les chiffres sont identiques
                 cpt += 1
                 
     return cpt

@@ -63,3 +63,21 @@ def produit(iterable):
 def mini_maxi_par_chiffre(nb_chiffres):
     """Retourne le plus petit entier et le plus grand entier qui ont [nb_chiffres] chiffres"""
     return 10**(nb_chiffres - 1), 10**nb_chiffres - 1
+
+
+def est_identique(iterable):
+    """Vérifie si tous les éléments de l'itérables sont les mêmes"""
+    for i in range(len(iterable)-1):
+        if iterable[i] != iterable[i+1]: # Si l'élément actuel est différent de l'élément suivant
+            return False
+    # Si tous les éléments sont identiques
+    return True
+
+def est_distinct(iterable):
+    """Vérifie que tous les éléments d'un iterable sont différents"""
+    distinct = set()
+    for e in iterable:
+        if e in distinct:
+            return False
+        distinct.add(e)
+    return True
