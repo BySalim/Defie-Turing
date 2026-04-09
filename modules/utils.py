@@ -81,3 +81,23 @@ def est_distinct(iterable):
             return False
         distinct.add(e)
     return True
+
+def decompose_chiffres(nombre):
+    """Transforme un nombre en une liste de ses chiffres"""
+    l = []
+    while nombre != 0:
+        l.append(nombre % 10)
+        nombre //= 10
+    l.reverse()
+    return l
+
+def compose_chiffres(chiffres):
+    """Transforme une liste de chiffre en son nombre"""
+    nombre = 0
+    for c in chiffres:
+        nombre = nombre * 10 + c
+    return nombre
+    
+if __name__ == "__main__":
+    print(decompose_chiffres(7445882))
+    print(compose_chiffres([7, 4, 4, 5, 8, 8, 2]))
