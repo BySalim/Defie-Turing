@@ -2,4 +2,6 @@ __pycache__/
 
 .vscode/
 
+# scripts utilitaires pour la création ou modification rapide
 new_problem.py
+solve_problem.py
