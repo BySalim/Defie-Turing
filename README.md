@@ -21,7 +21,7 @@ Remplace `problem1` par le numéro souhaité (ex. `problem71`).
 - timer est un décorateur qui permet de calculer le temps efectuer par une fonction.
 - utils est l'ensemble des fonctions utilitaire utilisable dans les problèmes.
 
-### Problèmes résolus : 25 / 256
+### Problèmes résolus : 26 / 256
 
 <table>
   <tr>
@@ -124,7 +124,7 @@ Remplace `problem1` par le numéro souhaité (ex. `problem71`).
     <td align="center">87</td>
     <td align="center">88</td>
     <td align="center">89</td>
-    <td align="center">90</td>
+    <td align="center" bgcolor="#90EE90"><a href="/problems/problem90.py"><font color="#1155CC">90</font></a></td>
     <td align="center">91</td>
     <td align="center">92</td>
     <td align="center">93</td>
