@@ -2,6 +2,8 @@ __pycache__/
 
 .vscode/
 
-# scripts utilitaires pour la création ou modification rapide
+# scripts personnels utilitaires pour tâches récurentes
+# Crée un fichier problems/problemx.py avec mon format
 new_problem.py
+# Mets à jour le readme pour un problème x commme résolue
 solve_problem.py
