@@ -97,7 +97,31 @@ def compose_chiffres(chiffres):
     for c in chiffres:
         nombre = nombre * 10 + int(c)
     return nombre
+
+def liste_diviseurs_propres(nombre):
+    """Retourne la liste des diviseurs propres d'un nombre"""
+    l = []
+    for i in range(1, (nombre // 2) + 1):
+        if nombre % i == 0:
+            l.append(i)
+    return l
+
+def liste_diseurs(nombre):
+    """Retourne la liste de tous les diviseurs d'un nombre"""
+    return liste_diviseurs_propres(nombre) + [nombre]
+
+def somme_diviseurs_propres(nombre):
+    """Retourne la somme des diviseurs propres d'un nombre"""
+    if nombre == 1:
+        return 1
+    s = 1
+    for i in range(2, int(nombre ** 0.5) + 1):
+        if nombre % i == 0:
+            s += i
+            multiple_i = nombre // i
+            if multiple_i != i:
+                s += multiple_i
+    return s
     
 if __name__ == "__main__":
-    print(decompose_chiffres(7445882))
-    print(compose_chiffres([7, 4, 4, 5, 8, 8, 2]))
+    print(somme_diviseurs_propres(120))
