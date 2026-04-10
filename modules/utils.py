@@ -96,6 +96,18 @@ def decompose_chiffres(nombre, ordre_normal = True):
         l.reverse()
     return l
 
+def ensemble_chiffres(nombre):
+    """Retourne l'ensemble des chiffres qu'il a dans un nombre"""
+    
+    if nombre == 0:
+        return {0}
+    
+    ens = set()
+    while nombre != 0:
+        ens.add(nombre % 10)
+        nombre //= 10
+    return ens
+
 def compose_chiffres(chiffres):
     """Transforme une liste de chiffre en son nombre"""
     nombre = 0
