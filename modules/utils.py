@@ -95,7 +95,7 @@ def compose_chiffres(chiffres):
     """Transforme une liste de chiffre en son nombre"""
     nombre = 0
     for c in chiffres:
-        nombre = nombre * 10 + c
+        nombre = nombre * 10 + int(c)
     return nombre
     
 if __name__ == "__main__":
