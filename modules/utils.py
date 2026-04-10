@@ -103,6 +103,16 @@ def compose_chiffres(chiffres):
         nombre = nombre * 10 + int(c)
     return nombre
 
+def chiffre_appartient(chiffre, nombre):
+    """Vérifit qu'un chiffre est dans un nombre"""
+    
+    while nombre != 0:
+        if chiffre == nombre % 10:
+            return True
+        nombre //= 10
+        
+    return False
+    
 def liste_diviseurs_propres(nombre):
     """Retourne la liste des diviseurs propres d'un nombre"""
     l = []
