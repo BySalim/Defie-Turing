@@ -82,13 +82,18 @@ def est_distinct(iterable):
         distinct.add(e)
     return True
 
-def decompose_chiffres(nombre):
-    """Transforme un nombre en une liste de ses chiffres"""
+def decompose_chiffres(nombre, ordre_normal = True):
+    """
+        Transforme un nombre en une liste de ses chiffres.
+        [ordre_normal] permet de savoir si on veut réperer la liste par l'ordre des chiffres normales
+        c'est à dire de la droite vers la droite (ex: 123 retourne [1, 2, 3]) ou l'ordre inverse (ex: 123 retourne [3, 2, 1])
+    """
     l = []
     while nombre != 0:
         l.append(nombre % 10)
         nombre //= 10
-    l.reverse()
+    if ordre_normal:
+        l.reverse()
     return l
 
 def compose_chiffres(chiffres):
