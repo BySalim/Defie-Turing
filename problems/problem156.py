@@ -18,7 +18,7 @@ from modules.utils import nb_chiffres
 
 # Idée :
 # On parcours les puissances à partir de 1
-# On vérifit que le dernier chiffre de 18^n est n
+# On vérifit que 18^n se termine n
 
 @mesure_temps
 def puissance_finale(nbr):
