@@ -25,7 +25,7 @@ Les fichiers dont certains programmes ont besoin.
 - timer est un décorateur qui permet de calculer le temps efectuer par une fonction.
 - utils est l'ensemble des fonctions utilitaire utilisable dans les problèmes.
 
-### Problèmes résolus : 44 / 256
+### Problèmes résolus : 45 / 256
 
 <table>
   <tr>
@@ -270,7 +270,7 @@ Les fichiers dont certains programmes ont besoin.
     <td align="center">213</td>
     <td align="center" bgcolor="#90EE90"><a href="/problems/problem214.py"><font color="#1155CC">214</font></a></td>
     <td align="center">215</td>
-    <td align="center">216</td>
+    <td align="center" bgcolor="#90EE90"><a href="/problems/problem216.py"><font color="#1155CC">216</font></a></td>
     <td align="center">217</td>
     <td align="center">218</td>
     <td align="center">219</td>
